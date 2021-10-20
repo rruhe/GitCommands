@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet Git Commands</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/342de20db3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- CODE DOCUMENTATION follow soon -->
+    <header class="shadow1">
+        <nav>
+            <ul>
+                <li class="highlight-CMD"><a href="#">init</a></li>
+                <li class="highlight-CMD"><a href="#add">add</a></li>
+                <li class="highlight-CMD"><a href="#commit">commit</a></li>
+                <li class="highlight-CMD"><a href="#push">push</a></li>
+                <li class="highlight-CMD"><a href="#log">log</a></li>
+                <li class="highlight-CMD"><a href="#status">status</a></li>
+                <li class="highlight-CMD"><a href="#branch">branch</a></li>
+                <li class="highlight-CMD"><a href="#checkout">checkout</a></li>
+                <li class="highlight-CMD"><a href="#pull">pull</a></li>
+                <li class="highlight-CMD"><a href="#merge">merge</a></li>
+            </ul>
+        </nav>
+        <div>
+            <h1>Cheatsheet for Git Commands</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+
+            <article class="main-article">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/init.png" alt="img-init" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git init</span></h3>
+                    <p>Der Befehl erzeugt ein Unterverzeichnis .git, in dem alle relevanten Git-Repository-Daten enthalten sind, also ein Git-Repository Grundgerüst. Zu diesem Zeitpunkt werden noch keine Dateien in Git versioniert. In Kapitel 10, Git Interna, finden Sie weitere Informationen, welche Dateien im .git Verzeichnis enthalten sind und was ihre Aufgabe ist.</p>
+                </div>
+                
+            </article>
+
+            <article class="main-article" id="add">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/add.png" alt="img-add" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git add</span></h3>
+                    <p>Der Befehl gefolgt von einem Punkt(git add .) wählt alle Dateien des Projektes aus, um sie dem Index hinzuzufügen.</p>
+                </div>
+                
+            </article>
+
+            <article class="main-article" id="commit">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/commit.png" alt="img-commit" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git commit</span></h3>
+                    <p>Die Änderungen werden an den Index-Bereich übergeben. Man spricht auch vom Stage / staging. Mit dem Parameter '-m' wird eine Nachricht hinzugefügt, die die Änderungen beschreiben sollen.</p>
+                </div>
+                
+            </article>
+           
+            <article class="main-article" id="push">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/push.png" alt="img-push" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git push</span></h3>
+                    <p>Die Änderungen werden an Remote-Repository übergeben.</p>
+                </div>
+                
+            </article>
+
+            <article class="main-article" id="log">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/log.png" alt="img-log" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git log</span></h3>
+                    <p>Der Änderungsverlauf wird je nach verwendetem Parameter angezeigt.</p>
+                </div>
+                
+            </article>
+
+            <article class="main-article" id="status">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/status.png" alt="img-status" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git status</span></h3>
+                    <p>Gibt über den aktuellen Verarbeitungsstand Auskunft. Je nachdem ob Änderungen vorliegen, werden Informationen hierzu ausgegeben.</p>
+                </div>
+                
+            </article>
+
+            <article class="main-article" id="branch">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/branch.png" alt="img-branch" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git branch</span></h3>
+                    <p>Wird verwendet um einen neue Branch zu erstellen.</p>
+                </div>
+                
+            </article>
+
+            <article class="main-article" id="checkout">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/checkout.png" alt="img-checkout" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git checkout</span></h3>
+                    <p>Wird verwendet um in einen Branch zu wechseln.</p>
+                </div>
+                
+            </article>
+
+            <article class="main-article" id="pull">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/pull.png" alt="img-pull" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git pull</span></h3>
+                    <p>Wird verwendet um Änderungen aus dem Online-Repository abzuholen.</p>
+                </div>
+                
+            </article>
+
+            <article class="main-article" id="merge">
+
+                <div class="div-left-pos">
+                    <img src="assets/img/merge.png" alt="img-merge" class="carbon-img">
+                </div>
+                <div class="div-right-pos">
+                    <h3>Command:<span class="highlight-CMD">git merge</span></h3>
+                    <p>Die Änderungen eines Branch werden auf einen anderen Branch übertragen.</p>
+                </div>
+                
+            </article>
+
+    </section>
+    </main>
+    <footer class="footer">
+        <p>BOOTCAMP WORKS</p>
+    </footer>
+</body>
+
+</html>
